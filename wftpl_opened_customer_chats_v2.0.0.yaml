@@ -610,7 +610,7 @@ workflow:
       description: Send a message to a Slack workspace
       action: dynatrace.slack:slack-send-message
       input:
-        channel: C065Q1C68MR
+        channel: 
         message: '{{result("main_script").slackResponse}}'
         reaction: []
         connection: ""
